@@ -1,0 +1,2 @@
+'hello'.length
+'hello'.size
