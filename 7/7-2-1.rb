@@ -17,3 +17,13 @@ end
 users.each do |user|
 	puts "氏名: #{full_name(user)}、年齢: #{user[:age]}"
 end
+
+users[0][:first_name]
+
+users[0][:first_name]
+
+users[0][:country] = 'japan'
+
+users[0][:first_name] = 'Carol'
+
+users[0]
