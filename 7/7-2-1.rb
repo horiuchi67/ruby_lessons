@@ -37,3 +37,7 @@ class User
 		@age = age
 	end
 end
+
+users = []
+users << User.new('Alice', 'Ruby', 20)
+users << User.new('Bob', 'Python', 30)
