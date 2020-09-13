@@ -55,3 +55,6 @@ end
 
 users[0].first_name
 users[0].first_name
+
+users[0].country = 'japan'
+users[0].first_name = 'Carol'
