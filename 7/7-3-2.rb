@@ -3,3 +3,6 @@ class User
 		"Hello"
 	end
 end
+
+user = User.new
+user.hello
