@@ -6,3 +6,5 @@ class User
 		"Hello, I am #{name}."
 	end
 end
+user = User.new('Alice')
+user.hello
