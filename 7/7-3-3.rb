@@ -16,3 +16,4 @@ class User
 		"Hello, I am #{shuffled_name}"
 	end
 end
+user = User.new('Alice')
