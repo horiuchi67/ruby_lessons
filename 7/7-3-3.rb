@@ -8,3 +8,11 @@ class User
 end
 user = User.new('Alice')
 user.hello
+
+class User
+
+	def hello
+		shuffled_name = @name.chars.shuffle.join
+		"Hello, I am #{shuffled_name}"
+	end
+end
