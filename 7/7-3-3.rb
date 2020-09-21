@@ -24,3 +24,6 @@ class User
 		"Hello, I am #{shuffle_name}."
 	end
 end
+
+user = user.new('Alice')
+user.hello
