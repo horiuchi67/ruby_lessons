@@ -18,3 +18,9 @@ class User
 end
 user = User.new('Alice')5
 user.hello
+
+class User
+	def hello
+		"Hello, I am #{shuffle_name}."
+	end
+end
