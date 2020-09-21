@@ -27,3 +27,12 @@ end
 
 user = user.new('Alice')
 user.hello
+
+class User
+	def initialize(name)
+	end
+	def hello
+		"Hello, I am #{@name}."
+	end
+user = User.new('Alice')
+user.hello
