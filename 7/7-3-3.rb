@@ -47,3 +47,4 @@ class User
 	end
 end
 user = User.new('Alice')
+user.hello
