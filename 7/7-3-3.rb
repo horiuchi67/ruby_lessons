@@ -58,4 +58,5 @@ class User
 		@name
 	end
 end
-
+user = User.new('Alice')
+user.name
