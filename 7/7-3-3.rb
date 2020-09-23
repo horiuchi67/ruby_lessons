@@ -48,3 +48,9 @@ class User
 end
 user = User.new('Alice')
 user.hello
+
+class User
+	def initialize(name)
+		@name = name
+	end
+
